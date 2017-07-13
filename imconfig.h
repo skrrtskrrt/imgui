@@ -21,10 +21,10 @@
 //#define IMGUI_DISABLE_WIN32_DEFAULT_IME_FUNCS
 
 //---- Don't implement help and test window functionality (ShowUserGuide()/ShowStyleEditor()/ShowTestWindow() methods will be empty)
-//#define IMGUI_DISABLE_TEST_WINDOWS
+#define IMGUI_DISABLE_TEST_WINDOWS
 
 //---- Don't define obsolete functions names
-//#define IMGUI_DISABLE_OBSOLETE_FUNCTIONS
+#define IMGUI_DISABLE_OBSOLETE_FUNCTIONS
 
 //---- Pack colors to BGRA instead of RGBA (remove need to post process vertex buffer in back ends)
 //#define IMGUI_USE_BGRA_PACKED_COLOR
